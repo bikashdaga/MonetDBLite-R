@@ -115,7 +115,7 @@ Note how we wrap the two commands in a transaction using `dbBegin` and `dbCommit
 
 ## Reading and Writing (Queries and Updates)
 
-This section reviews how to pass SQL queries to an embedded server session and then pull those results into R.  If you are interested in learning SQL syntax, perhaps review the [w3schools SQL tutorial](http://www.w3schools.com/sql/) or the [MonetDB SQL Reference Manual](https://www.monetdb.org/Documentation/SQLreference).
+This section reviews how to pass SQL queries to an embedded server session and then pull those results into R.  If you are interested in learning SQL syntax, perhaps review the [w3schools SQL tutorial](http://www.w3schools.com/sql/), [Scaler Topics SQL basic and advanced concepts with example](https://www.scaler.com/topics/sql/) or the [MonetDB SQL Reference Manual](https://www.monetdb.org/Documentation/SQLreference).
 
 The `dbGetQuery` function sends a `SELECT` statement to the server, then returns the result as a `data.frame`:
 
